@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(218, 218, 218);
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 50px;
+}
+header > h1{
+    font-size: 5em;
+    text-decoration: underline;
+    padding: 20px;
+}
+header > p{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+    transition: 0.5s;
+}
+section{
+    padding: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+}
+section#imagem{
+    background-image: url(../imagens/download\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+section#imagem > p{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 40vw;
+    color: white;
+}
